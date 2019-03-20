@@ -7,7 +7,7 @@
  * curl is part of the cujo.js family of libraries (http://cujojs.com/)
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 (function (global) {

@@ -4,7 +4,7 @@
  * curl js! plugin
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 
@@ -25,7 +25,7 @@
  * javascript file failed to load correctly.
  *
  * Async=false rules learned from @getify's LABjs!
- * http://wiki.whatwg.org/wiki/Dynamic_Script_Execution_Order
+ * https://wiki.whatwg.org/wiki/Dynamic_Script_Execution_Order
  *
  */
 (function (global, doc, testGlobalVar) {

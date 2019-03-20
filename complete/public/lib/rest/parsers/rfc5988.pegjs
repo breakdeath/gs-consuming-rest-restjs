@@ -25,7 +25,7 @@ LinkParams =
   { return param }
 
 URIReference =
-  // TODO see http://tools.ietf.org/html/rfc3987#section-3.1
+  // TODO see https://tools.ietf.org/html/rfc3987#section-3.1
   url:[^>]+
   { return url.join('') }
 

@@ -6,7 +6,7 @@
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "http://opensource.org/licenses/MIT"
+			"url": "https://opensource.org/licenses/MIT"
 		}
 	],
 	"repository": {
@@ -18,7 +18,7 @@
 		{
 			"name": "Scott Andrews",
 			"email": "sandrews@gopivotal.com",
-			"web": "http://twitter.com/scothis"
+			"web": "https://twitter.com/scothis"
 		}
 	],
 	"contributors": [

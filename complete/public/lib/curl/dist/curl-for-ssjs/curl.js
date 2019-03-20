@@ -7,7 +7,7 @@
  * curl is part of the cujo.js family of libraries (http://cujojs.com/)
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 (function (global) {
@@ -1472,7 +1472,7 @@ define('curl/shim/_fetchText', function () {
  * environments such as RingoJS, Rhino, and NodeJS.
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  * TODO: support environments that implement XMLHttpRequest such as Wakanda
  */
@@ -1669,7 +1669,7 @@ define('curl/loader/cjsm11', ['../plugin/_fetchText', 'curl/_privileged'], funct
 	}
 
 	var injectSource = function (el, source) {
-		// got this from Stoyan Stefanov (http://www.phpied.com/dynamic-script-and-style-elements-in-ie/)
+		// got this from Stoyan Stefanov (https://www.phpied.com/dynamic-script-and-style-elements-in-ie/)
 		injectSource = ('text' in el) ?
 			function (el, source) { el.text = source; } :
 			function (el, source) { el.appendChild(document.createTextNode(source)); };

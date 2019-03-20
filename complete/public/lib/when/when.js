@@ -5,7 +5,7 @@
  * when is part of the cujo.js family of libraries (http://cujojs.com/)
  *
  * Licensed under the MIT License at:
- * http://www.opensource.org/licenses/mit-license.php
+ * https://www.opensource.org/licenses/mit-license.php
  *
  * @author Brian Cavalier
  * @author John Hann
@@ -886,7 +886,7 @@ define(function (require) {
 	slice = arrayProto.slice;
 
 	// ES5 reduce implementation if native not available
-	// See: http://es5.github.com/#x15.4.4.21 as there are many
+	// See: https://es5.github.com/#x15.4.4.21 as there are many
 	// specifics and edge cases.  ES5 dictates that reduce.length === 1
 	// This implementation deviates from ES5 spec in the following ways:
 	// 1. It does not check if reduceFunc is a Callable

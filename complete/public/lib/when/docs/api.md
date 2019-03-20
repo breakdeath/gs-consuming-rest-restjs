@@ -115,7 +115,7 @@ var promise = when.reject(reason);
 var newPromise = promise.then(onFulfilled, onRejected, onProgress);
 ```
 
-[Promises/A+ `then`](http://promisesaplus.com).  The primary API for transforming a promise's value and producing a new promise for the transformed result, or for handling and recovering from intermediate errors in a promise chain.  It arranges for:
+[Promises/A+ `then`](https://promisesaplus.com).  The primary API for transforming a promise's value and producing a new promise for the transformed result, or for handling and recovering from intermediate errors in a promise chain.  It arranges for:
 
 * `onFulfilled` to be called with the value after `promise` is fulfilled, or
 * `onRejected` to be called with the rejection reason after `promise` is rejected.
@@ -130,7 +130,7 @@ A promise makes the following guarantees about handlers registered in the same c
 1. `onProgress` may be called multiple times.
 
 ### See also
-* [Promises/A+](http://promisesaplus.com) for extensive information on the behavior of `then`.
+* [Promises/A+](https://promisesaplus.com) for extensive information on the behavior of `then`.
 * [promise.done](#done)
 
 ## Extended Promise API
@@ -615,7 +615,7 @@ settled.then(function(descriptors) {
 
 the `when/keys` module provides `all()`, and `map()` for working with object keys, for the times when organizing promises in a hash using object keys is more convenient than using an array.
 
-**NOTE:** Key enumeration order (via `for..in` and `Object.keys()`) in JavaScript/ECMAScript is not defined, making an inherently ordered operation like reduce/fold impossible to implement reliably across VMs (For example, see [this v8 bug](http://code.google.com/p/v8/issues/detail?id=164) showing that v8 key ordering has changed across versions).  Thus, `when/keys` does not provide `keys.reduce()`.
+**NOTE:** Key enumeration order (via `for..in` and `Object.keys()`) in JavaScript/ECMAScript is not defined, making an inherently ordered operation like reduce/fold impossible to implement reliably across VMs (For example, see [this v8 bug](https://code.google.com/p/v8/issues/detail?id=164) showing that v8 key ordering has changed across versions).  Thus, `when/keys` does not provide `keys.reduce()`.
 
 ## when/keys all
 
@@ -1383,7 +1383,7 @@ var nodefn, http;
 nodefn = require("when/node/function");
 http   = require("http");
 
-var getCats = nodefn.apply(http.get, ["http://lolcats.com"]);
+var getCats = nodefn.apply(http.get, ["http://www.lolcats.com/"]);
 
 getCats.then(function(cats) {
 	// Rejoice!

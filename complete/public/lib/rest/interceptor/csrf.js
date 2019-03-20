@@ -23,7 +23,7 @@
 		 * are particularly vulnerable to request forgeries without extra
 		 * protection.
 		 *
-		 * @see http://en.wikipedia.org/wiki/Cross-site_request_forgery
+		 * @see https://en.wikipedia.org/wiki/Cross-site_request_forgery
 		 *
 		 * @param {Client} [client] client to wrap
 		 * @param {string} [config.name='X-Csrf-Token'] name of the request

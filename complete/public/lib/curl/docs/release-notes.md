@@ -29,8 +29,8 @@ Release notes for curl.js
 * 0.7.5
 	* Can now resolve relative plugin ids in local require (bug fix).
 * 0.7.4
-	* curl.js is now available on CDN: http://cdnjs.com/#curl and
-	  http://jsdelivr.com/#!curl.js
+	* curl.js is now available on CDN: https://cdnjs.com/#curl and
+	  https://jsdelivr.com/#!curl.js
 	* "main" modules specified in config are fetched after a delay for better
 	  compatibility with bundles.
 	* cram.js support
@@ -118,7 +118,7 @@ Release notes for curl.js
 	* jQuery 1.7 support!!!
 	* curl.js indicates to jQuery that it is a jQuery-aware AMD loader (#31)
 	* AMD/CJSM Hybrid format (see Manual Conversion section of this
-	  page: http://requirejs.org/docs/commonjs.html)
+	  page: https://requirejs.org/docs/commonjs.html)
 	* Now supports node's module.exports = x; export model
 	* bug fixes:
 		* multiple .next() calls now pass variables correctly

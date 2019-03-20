@@ -125,7 +125,7 @@ Create new test cases for new modules.
 Use `git rebase --interactive`, `git add --patch` and other tools to "squash"
 multiple commits into atomic changes. In addition to the man pages for git,
 there are many resources online to help you understand how these tools work.
-Here is one: http://book.git-scm.com/4_interactive_rebasing.html.
+Here is one: https://book.git-scm.com/4_interactive_rebasing.html.
 
 
 ## Format commit messages
@@ -224,8 +224,8 @@ against the branch used to submit your pull request. i.e. you do not need to
 issue a new pull request when asked to make changes.
 
 
-[help documentation]: http://help.github.com/send-pull-requests
+[help documentation]: https://help.github.com/send-pull-requests
 [issue tracker]: https://github.com/cujojs/rest/issues
 [mailing list]: https://groups.google.com/forum/#!forum/cujojs
 [fork-and-edit]: https://github.com/blog/844-forking-with-the-edit-button
-[commit guidelines section of Pro Git]: http://progit.org/book/ch5-2.html#commit_guidelines
+[commit guidelines section of Pro Git]: https://progit.org/book/ch5-2.html#commit_guidelines

@@ -1,10 +1,10 @@
-<a href="http://promises-aplus.github.com/promises-spec"><img src="http://promises-aplus.github.com/promises-spec/assets/logo-small.png" alt="Promises/A+ logo" align="right" /></a>
+<a href="https://promises-aplus.github.com/promises-spec"><img src="https://promises-aplus.github.com/promises-spec/assets/logo-small.png" alt="Promises/A+ logo" align="right" /></a>
 
-[![Build Status](https://secure.travis-ci.org/cujojs/when.png)](http://travis-ci.org/cujojs/when) 
+[![Build Status](https://secure.travis-ci.org/cujojs/when.png)](https://travis-ci.org/cujojs/when) 
 
 # when.js
 
-When.js is cujoJS's lightweight [Promises/A+](http://promises-aplus.github.com/promises-spec) and `when()` implementation that powers the async core of [wire.js](https://github.com/cujojs/wire), cujoJS's IOC Container.  It features:
+When.js is cujoJS's lightweight [Promises/A+](https://promises-aplus.github.com/promises-spec) and `when()` implementation that powers the async core of [wire.js](https://github.com/cujojs/wire), cujoJS's IOC Container.  It features:
 
 * A rock solid, battle-tested Promise implementation
 * Resolving, settling, mapping, and reducing arrays of promises
@@ -22,11 +22,11 @@ It passes the [Promises/A+ Test Suite](https://github.com/promises-aplus/promise
 
 ### 2.5.1
 
-* `ensure` now ignores non-functions, [like `then` does](http://promisesaplus.com/#point-25), for consistency. (#207)
+* `ensure` now ignores non-functions, [like `then` does](https://promisesaplus.com/#point-25), for consistency. (#207)
 
 ### 2.5.0
 
-* [Promises/A+ 1.1](http://promisesaplus.com) compliant.  Passes version 2.0.0 of the [Promises/A+ test suite](https://github.com/promises-aplus/promises-tests).
+* [Promises/A+ 1.1](https://promisesaplus.com) compliant.  Passes version 2.0.0 of the [Promises/A+ test suite](https://github.com/promises-aplus/promises-tests).
 
 ### 2.4.1
 
@@ -35,7 +35,7 @@ It passes the [Promises/A+ Test Suite](https://github.com/promises-aplus/promise
 
 ### 2.4.0
 
-* Experimental support for [vert.x 2.x](http://vertx.io). Should now run in vert.x >= 1.1.0.
+* Experimental support for [vert.x 2.x](https://vertx.io). Should now run in vert.x >= 1.1.0.
 * New `when.isPromiseLike` as the more accurately-named synonym for `when.isPromise`.
 * **DEPRECATED**: `when.isPromise`. It can only tell you that something is "promise-like" (aka "thenable") anyway. Use the new, more accurately-named `when.isPromiseLike` instead.
 * Fix for promise monitor reporting extra unhandled rejections for `when.all` and `when.map`.

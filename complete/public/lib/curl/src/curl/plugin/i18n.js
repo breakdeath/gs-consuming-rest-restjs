@@ -14,7 +14,7 @@
  * the more specific versions override properties in the less specific.
  *
  * Browsers follow the language specifiers in the Language-Tags feature of
- * RFC 5646: http://tools.ietf.org/html/rfc5646
+ * RFC 5646: https://tools.ietf.org/html/rfc5646
  *
  * Example locales: "en", "en-US", "en-GB", "fr-FR", "kr", "cn", "cn-"
  *

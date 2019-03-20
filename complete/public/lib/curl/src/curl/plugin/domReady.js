@@ -4,7 +4,7 @@
  * curl domReady loader plugin
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 

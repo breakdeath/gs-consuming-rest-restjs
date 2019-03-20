@@ -4,7 +4,7 @@
  * curl createContext module
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 
@@ -74,7 +74,7 @@ define(['../../', 'curl/_privileged', './undefine'], function (curl, priv, undef
 	 *
 	 * Promises returned by curl.js or this runner module are *not*
 	 * compliant to the CommonJS Promises/A standard.  Use a library
-	 * such as when.js (http://github.com/cujojs/when) to create compliant
+	 * such as when.js (https://github.com/cujojs/when) to create compliant
 	 * promises.  See example 2.
 	 *
 	 * @param [require] {Function}

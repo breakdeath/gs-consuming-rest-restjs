@@ -4,7 +4,7 @@
  * curl domReady
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  */
 
 /**
@@ -19,7 +19,7 @@
  * also: check out curl's domReady! plugin
  *
  * HT to Bryan Forbes who wrote the initial domReady code:
- * http://www.reigndropsfall.net/
+ * https://www.reigndropsfall.net/
  *
  */
 (function (global, doc) {

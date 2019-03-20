@@ -50,7 +50,7 @@ define(/*=='curl/loader/cjsm11',==*/ ['../plugin/_fetchText', 'curl/_privileged'
 	}
 
 	var injectSource = function (el, source) {
-		// got this from Stoyan Stefanov (http://www.phpied.com/dynamic-script-and-style-elements-in-ie/)
+		// got this from Stoyan Stefanov (https://www.phpied.com/dynamic-script-and-style-elements-in-ie/)
 		injectSource = ('text' in el) ?
 			function (el, source) { el.text = source; } :
 			function (el, source) { el.appendChild(document.createTextNode(source)); };

@@ -4,7 +4,7 @@
  * curl css! plugin
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 
@@ -20,7 +20,7 @@
  * Some browsers don't support the error event handler, either.
  * The HTML5 spec states that the LINK element should have both load and
  * error events:
- * http://www.w3.org/TR/html5/semantics.html#the-link-element
+ * https://www.w3.org/TR/html5/semantics.html#the-link-element
  *
  * This plugin tries to use the load event and a universal work-around when
  * it is invoked.  If the load event works, it is used on every successive load.

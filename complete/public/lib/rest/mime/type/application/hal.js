@@ -30,7 +30,7 @@
 		/**
 		 * JSON Hypertext Application Language serializer
 		 *
-		 * Implemented to http://tools.ietf.org/html/draft-kelly-json-hal-05
+		 * Implemented to https://tools.ietf.org/html/draft-kelly-json-hal-05
 		 *
 		 * As the spec is still a draft, this implementation will be updated as the
 		 * spec evolves

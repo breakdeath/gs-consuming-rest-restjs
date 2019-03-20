@@ -8,8 +8,8 @@ Build Status
 ------------
 
 <table>
-  <tr><td>Master</td><td><a href="http://travis-ci.org/cujojs/rest" target="_blank"><img src="https://secure.travis-ci.org/cujojs/rest.png?branch=master" /></a></tr>
-  <tr><td>Development</td><td><a href="http://travis-ci.org/cujojs/rest" target="_blank"><img src="https://secure.travis-ci.org/cujojs/rest.png?branch=dev" /></a></tr>
+  <tr><td>Master</td><td><a href="https://travis-ci.org/cujojs/rest" target="_blank"><img src="https://secure.travis-ci.org/cujojs/rest.png?branch=master" /></a></tr>
+  <tr><td>Development</td><td><a href="https://travis-ci.org/cujojs/rest" target="_blank"><img src="https://secure.travis-ci.org/cujojs/rest.png?branch=dev" /></a></tr>
 </table>
 
 
@@ -154,7 +154,7 @@ Specific browser test are provided by [Travis CI](https://travis-ci.org/cujojs/r
 Getting Started
 ---------------
 
-rest.js can be installed via [npm](https://npmjs.org/), [Bower](http://twitter.github.com/bower/), or from source.
+rest.js can be installed via [npm](https://npmjs.org/), [Bower](https://twitter.github.com/bower/), or from source.
 
 To install without source:
 
@@ -168,7 +168,7 @@ From source:
 
     $ npm install
 
-rest.js is designed to run in a browser environment, utilizing [AMD modules](https://github.com/amdjs/amdjs-api/wiki/AMD), or within [Node.js](http://nodejs.org/).  [curl.js](https://github.com/cujojs/curl) is highly recommended as an AMD loader, although any loader should work.
+rest.js is designed to run in a browser environment, utilizing [AMD modules](https://github.com/amdjs/amdjs-api/wiki/AMD), or within [Node.js](https://nodejs.org/).  [curl.js](https://github.com/cujojs/curl) is highly recommended as an AMD loader, although any loader should work.
 
 An ECMAScript 5 compatible environment is assumed.  Older browsers, ::cough:: IE, that do not support ES5 natively can be shimmed.  Any shim should work, although we've tested against cujo's [poly.js](https://github.com/cujojs/poly)
 
@@ -182,7 +182,7 @@ Full project documentation is available in the [docs directory](docs).
 Running the Tests
 -----------------
 
-The test suite can be run in two different modes: in node, or in a browser.  We use [npm](https://npmjs.org/) and [Buster.JS](http://busterjs.org/) as the test driver, buster is installed automatically with other dependencies.
+The test suite can be run in two different modes: in node, or in a browser.  We use [npm](https://npmjs.org/) and [Buster.JS](https://busterjs.readthedocs.org/) as the test driver, buster is installed automatically with other dependencies.
 
 Before running the test suite for the first time:
 

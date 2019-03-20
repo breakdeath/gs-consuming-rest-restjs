@@ -6,7 +6,7 @@
  * environments such as RingoJS, Rhino, and NodeJS.
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  * TODO: support environments that implement XMLHttpRequest such as Wakanda
  */

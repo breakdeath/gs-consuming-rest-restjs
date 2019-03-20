@@ -5,11 +5,11 @@
 
 ### 2.5.1
 
-* `ensure` now ignores non-functions, [like `then` does](http://promisesaplus.com/#point-25), for consistency. (#207)
+* `ensure` now ignores non-functions, [like `then` does](https://promisesaplus.com/#point-25), for consistency. (#207)
 
 ### 2.5.0
 
-* [Promises/A+ 1.1](http://promisesaplus.com) compliant.  Passes version 2.0.0 of the [Promises/A+ test suite](https://github.com/promises-aplus/promises-tests).
+* [Promises/A+ 1.1](https://promisesaplus.com) compliant.  Passes version 2.0.0 of the [Promises/A+ test suite](https://github.com/promises-aplus/promises-tests).
 
 ### 2.4.1
 
@@ -18,7 +18,7 @@
 
 ### 2.4.0
 
-* Experimental support for [vert.x 2.x](http://vertx.io). Should now run in vert.x >= 1.1.0.
+* Experimental support for [vert.x 2.x](https://vertx.io). Should now run in vert.x >= 1.1.0.
 * New `when.isPromiseLike` as the more accurately-named synonym for `when.isPromise`.
 * **DEPRECATED**: `when.isPromise`. It can only tell you that something is "promise-like" (aka "thenable") anyway. Use the new, more accurately-named `when.isPromiseLike` instead.
 * Fix for promise monitor reporting extra unhandled rejections for `when.all` and `when.map`.
@@ -52,7 +52,7 @@
 * New [`when/guard`](docs/api.md#whenguard) generalized concurrency guarding and limiting
 * New [`promise.inspect`](docs/api.md#inspect) for synchronously getting a snapshot of a promise's state at a particular instant.
 * Significant performance improvements when resolving promises with non-primitives (Arrays, Objects, etc.)
-* Experimental [vert.x](http://vertx.io) support
+* Experimental [vert.x](https://vertx.io) support
 * **DEPRECATED**: `onFulfilled`, `onRejected`, `onProgress` handler arguments to `when.all`, `when.any`, `when.some`.  Use the returned promise's `then()` (or `otherwise()`, `ensure()`, etc) to register handlers instead.
 	* For example, do this: `when.all(array).then(onFulfilled, onRejected)` instead of this: `when.all(array, onFulfilled, onRejected)`.  The functionality is equivalent.
 
@@ -63,7 +63,7 @@
 ### 2.0.0
 
 * Fully asynchronous resolutions.
-* [Promises/A+](http://promises-aplus.github.com/promises-spec) compliance.
+* [Promises/A+](https://promises-aplus.github.com/promises-spec) compliance.
 * New [`when/keys`](docs/api.md#object-keys) module with `all()` and `map()` for object keys/values.
 * New [`promise.ensure`](docs/api.md#ensure) as a better, and safer, replacement for `promise.always`.  [See discussion](https://github.com/cujojs/when/issues/103) as to why `promise.always` is mistake-prone.
 	* **DEPRECATED:** `promise.always`
@@ -95,7 +95,7 @@
 
 * **DEPRECATED:** `deferred.then` [is deprecated](docs/api.md#deferred) and will be removed in an upcoming release.  Use `deferred.promise.then` instead.
 * [promise.yield](docs/api.md#yield)(promiseOrValue) convenience API for substituting a new value into a promise chain.
-* [promise.spread](docs/api.md#spread)(variadicFunction) convenience API for spreading an array onto a fulfill handler that accepts variadic arguments. [Mmmm, buttery](http://s.shld.net/is/image/Sears/033W048977110001_20100422100331516?hei=1600&wid=1600&op_sharpen=1&resMode=sharp&op_usm=0.9,0.5,0,0)
+* [promise.spread](docs/api.md#spread)(variadicFunction) convenience API for spreading an array onto a fulfill handler that accepts variadic arguments. [Mmmm, buttery](https://s.shld.net/is/image/Sears/033W048977110001_20100422100331516?hei=1600&wid=1600&op_sharpen=1&resMode=sharp&op_usm=0.9,0.5,0,0)
 * Doc improvements:
 	* [when()](docs/api.md#when) and [promise.then()](docs/api.md#main-promise-api) have more info about callbacks and chaining behavior.
 	* More info and clarifications about the roles of [Deferred](docs/api.md#deferred) and [Resolver](docs/api.md#resolver)
@@ -129,7 +129,7 @@
 
 * New task execution and concurrency management: [when/sequence](docs/api.md#whensequence), [when/pipeline](docs/api.md#whenpipeline), and [when/parallel](docs/api.md#whenparallel).
 * Performance optimizations for [when.all](docs/api.md#whenall) and [when.map](docs/api.md#whenmap), up to 2x in some cases.
-* Options for disabling [paranoid mode](docs/api.md#paranoid-mode) that provides a significant performance gain in v8 (e.g. Node and Chrome). See this [v8 performance problem with Object.freeze](http://stackoverflow.com/questions/8435080/any-performance-benefit-to-locking-down-javascript-objects) for more info.
+* Options for disabling [paranoid mode](docs/api.md#paranoid-mode) that provides a significant performance gain in v8 (e.g. Node and Chrome). See this [v8 performance problem with Object.freeze](https://stackoverflow.com/questions/8435080/any-performance-benefit-to-locking-down-javascript-objects) for more info.
 * **Important:** `deferred` and `deferred.resolver` no longer throw when resolved/rejected multiple times.  They will return silently as if the they had succeeded.  This prevents parties to whom *only* the `resolver` has been given from using `try/catch` to determine the state of the associated promise.
     * For debugging, you can use the [when/debug](https://github.com/cujojs/when/wiki/when-debug) module, which will still throw when a deferred is resolved/rejected multiple times.
 
@@ -181,7 +181,7 @@
 
 ### 1.0.4
 
-* [Travis CI](http://travis-ci.org/cujojs/when) integration
+* [Travis CI](https://travis-ci.org/cujojs/when) integration
 * Fix for cancelable deferred not invoking progress callbacks. ([#24](https://github.com/cujojs/when/pull/24) Thanks [@scothis](https://github.com/scothis))
 * The promise returned by `when.chain` now rejects when the input promise rejects.
 
@@ -197,7 +197,7 @@
 ### 1.0.1
 
 * Fix for rejections propagating in some cases when they shouldn't have been ([#19](https://github.com/cujojs/when/issues/19))
-* Using [buster.js](http://busterjs.org/) for unit tests now.
+* Using [buster.js](https://busterjs.readthedocs.org/) for unit tests now.
 
 ### 1.0.0
 
@@ -212,7 +212,7 @@
 
 ### 0.11.0
 
-* `when.js` now *assimilates* thenables that pass the [Promises/A duck-type test](http://wiki.commonjs.org/wiki/Promises/A), but which may not be fully Promises/A compliant, such as [jQuery's Deferred](http://api.jquery.com/category/deferred-object/) and [curl's global API](https://github.com/cujojs/curl) (See the **API at a glance** section)
+* `when.js` now *assimilates* thenables that pass the [Promises/A duck-type test](http://wiki.commonjs.org/wiki/Promises/A), but which may not be fully Promises/A compliant, such as [jQuery's Deferred](https://api.jquery.com/category/deferred-object/) and [curl's global API](https://github.com/cujojs/curl) (See the **API at a glance** section)
     * `when()`, and `when.all/some/any/map/reduce/chain()` are all now guaranteed to return a fully Promises/A compliant promise, even when their input is not compliant.
     * Any non-compliant thenable returned by a callback or errback will also be assimilated to protect subsequent promises and callbacks in a promise chain, and preserve Promises/A forwarding guarantees.
 

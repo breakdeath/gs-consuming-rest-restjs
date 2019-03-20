@@ -4,7 +4,7 @@
  * curl link! plugin
  *
  * Licensed under the MIT License at:
- * 		http://www.opensource.org/licenses/mit-license.php
+ * 		https://www.opensource.org/licenses/mit-license.php
  *
  */
 
@@ -66,7 +66,7 @@
 
 	function fixProtocol (url, protocol) {
 		// IE 7 & 8 can't handle protocol-relative urls:
-		// http://www.stevesouders.com/blog/2010/02/10/5a-missing-schema-double-download/
+		// https://www.stevesouders.com/blog/2010/02/10/5a-missing-schema-double-download/
 		return url.replace(isProtocolRelativeRx, protocol + '//');
 	}
 

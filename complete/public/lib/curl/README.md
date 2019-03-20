@@ -470,7 +470,7 @@ processing overhead.  Instead, AMD allows us to place a lightweight wrapper
 around javascript modules to help work around the shortcomings.
 
 Ultimately, both proposals (AMD and Modules 1.1) are in preparation for an
-official [javascript modules](http://wiki.ecmascript.org/doku.php?id=harmony:modules)
+official [javascript modules](https://wiki.ecmascript.org/doku.php?id=harmony:modules)
 specification and eventual implementation in browsers.
 
 If you don't want to wait for official javascript modules, then don't.
@@ -594,12 +594,12 @@ Some examples of module names:
 * my/lib/string/format
 * js!my/lib/js/plain-old-js.js
 * css!my/styles/reset.css
-* http://some-cdn/uber/module
+* https://some-cdn/uber/module
 
 By default, curl.js will look in the same folder as the current document's
 location. For instance, if your web page is located at
-`http://my-domain/apps/myApp.html`, curl.js will look for the JsonRest module
-at `http://my-domain/apps/dojo/store/JsonRest.js`.
+`https://my-domain/apps/myApp.html`, curl.js will look for the JsonRest module
+at `https://my-domain/apps/dojo/store/JsonRest.js`.
 
 You can tell curl.js to find modules in other locations by specifying a baseUrl
 or individual packages for each of your libraries.  For example, if you specify
@@ -620,7 +620,7 @@ Then the modules listed above will be sought in the following locations:
 * /resources/my-cool-app-v1.3/lib/string/format.js
 * /resources/old-js-libs/plain-old-js.js
 * /resources/my-cool-app-v1.3/styles/reset.css
-* http://some-cdn/uber/module.js
+* https://some-cdn/uber/module.js
 
 Note: you will need to create a path to curl.js's plugins and other modules if
 the curl folder isn't directly under the same folder as your web page. curl.js
@@ -796,16 +796,16 @@ guidance.  Find out more at [cujoJS.com](http://cujojs.com).
 Kudos
 =================
 
-Many thanks to Bryan Forbes ([@bryanforbes](http://www.twitter.com/bryanforbes))
+Many thanks to Bryan Forbes ([@bryanforbes](https://www.twitter.com/bryanforbes))
 for helping to clean up my code and for making curl's domReady much more robust
 and help with dojo compatibility.
-More about Bryan: <http://www.reigndropsfall.net/>
+More about Bryan: <https://www.reigndropsfall.net/>
 
-Kudos also to James Burke ([@jrburke](http://www.twitter.com/jrburke)) who
+Kudos also to James Burke ([@jrburke](https://www.twitter.com/jrburke)) who
 instigated the AMD standard and paved the way to create AMD-style loaders.
-More about James: <http://tagneto.blogspot.com/>
+More about James: <https://tagneto.blogspot.com/>
 
-Shout out to Kris Zyp ([@kriszyp](http://www.twitter.com/kriszyp)) for
+Shout out to Kris Zyp ([@kriszyp](https://www.twitter.com/kriszyp)) for
 excellent ideas and feedback and to Kyle Simpson
-([@getify](http://www.twitter.com/getify)) who is inarguably the godfather of
+([@getify](https://www.twitter.com/getify)) who is inarguably the godfather of
 javascript loading.

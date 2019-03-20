@@ -29,7 +29,7 @@
 		 * the remote server must use the same scheme as the origin http-to-http
 		 * https-to-https.
 		 *
-		 * http://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx
+		 * https://blogs.msdn.com/b/ieinternals/archive/2010/05/13/xdomainrequest-restrictions-limitations-and-workarounds.aspx
 		 *
 		 * If needed, this interceptor should be installed as close to the
 		 * interceptor chain root as possible. When the XDR client is needed, any
