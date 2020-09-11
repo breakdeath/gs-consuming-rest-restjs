@@ -2,7 +2,7 @@
 
 cd $(dirname $0)
 
-BOOT_VERSION=2.0.0.RELEASE
+BOOT_VERSION=2.3.2.RELEASE
 
 if ! [ -d "$HOME/.sdkman/bin" ]; then
     curl -s get.sdkman.io | bash
